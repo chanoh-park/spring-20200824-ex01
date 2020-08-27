@@ -15,7 +15,9 @@ public class CustomMemberEditor extends PropertyEditorSupport {
 		member.setName(name);
 		member.setAge(age);
 		
-		setValue(member);	// 전달해주는 메소드
+		setValue(member);
 	}
-	
+
 }
+
+

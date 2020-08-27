@@ -24,7 +24,7 @@ import lombok.extern.log4j.Log4j;
 @Controller
 @RequestMapping("/arg/*")
 @Log4j
-public class AgumentController {
+public class ArgumentController {
 	
 	// ex) /arg/a?name=john
 	@RequestMapping("/a")

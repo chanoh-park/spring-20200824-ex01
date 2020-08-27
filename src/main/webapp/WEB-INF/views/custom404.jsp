@@ -16,41 +16,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>
-	Hello world! EX01 
-</h1>
-<h1>
-	post request
-</h1>
-<form action="sample/basicOnlyGet" method="post">
-	<input type="text" name="name"> <br>
-	<input type="submit" />
-	
-</form>
-
-
-<P>  The time on the server is ${serverTime}. </P>
-
-<a id="my-link" href="#">
-/sample/ex02Bean?list[0].name=aaa&list[1].name=bbb&list[2].name=ccc
-</a>
-
-<script>
-var url = $("#my-link").text();
-var encoded = encodeURI(url.trim());
-console.log(encoded);
-$("#my-link").attr("href", encoded);
-
-
-</script>
-
+	<h1>해당 url은 존재하지 않습니다.</h1>
 </body>
 </html>
-
-
-
-
-
 
 
 

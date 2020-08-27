@@ -16,36 +16,23 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>
-	Hello world! EX01 
-</h1>
-<h1>
-	post request
-</h1>
-<form action="sample/basicOnlyGet" method="post">
-	<input type="text" name="name"> <br>
-	<input type="submit" />
-	
+<form action="/sample/exUploadPost" 
+method="post" enctype="multipart/form-data">
+
+<div><input type="file" name="files" /></div>
+<div><input type="file" name="files" /></div>
+<div><input type="file" name="files" /></div>
+<div><input type="file" name="files" /></div>
+<div><input type="file" name="files" /></div>
+<div><input type="submit" /></div>
+
+
+
+
 </form>
-
-
-<P>  The time on the server is ${serverTime}. </P>
-
-<a id="my-link" href="#">
-/sample/ex02Bean?list[0].name=aaa&list[1].name=bbb&list[2].name=ccc
-</a>
-
-<script>
-var url = $("#my-link").text();
-var encoded = encodeURI(url.trim());
-console.log(encoded);
-$("#my-link").attr("href", encoded);
-
-
-</script>
-
 </body>
 </html>
+
 
 
 

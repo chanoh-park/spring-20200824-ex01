@@ -10,6 +10,12 @@ import lombok.Data;
 public class TodoDTO {
 	private String title;
 	
-	@DateTimeFormat(pattern = "yyyy/MM/dd")	// 작성한 pattern의 문자열 형식이 맞으면 자동으로 날짜 타입으로 변환(@InitBinder 필요 없음).
+	@DateTimeFormat(pattern = "yyyy/MM/dd")
 	private Date dueDate;
+	
 }
+
+
+
+
+
